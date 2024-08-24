@@ -1,0 +1,45 @@
+.summaryContainer {
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  h2 {
+    color: #007bff;
+    font-size: 1.8em;
+    margin-bottom: 15px;
+  }
+  
+  p {
+    font-size: 1.2em;
+    color: #28a745;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  h3 {
+    font-size: 1.5em;
+    margin: 20px 0 10px;
+    color: #333;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    font-size: 1.1em;
+    margin: 5px 0;
+    color: #555;
+  }
+  
+  li::before {
+    content: '•';
+    color: #007bff;
+    margin-right: 10px;
+  }
+  

@@ -1,0 +1,80 @@
+/* ExpenseList.module.css */
+.listContainer {
+    max-width: 800px;
+    margin: 40px auto;
+    background-color: #f8f9fa;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .expenseItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08);
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .expenseItem:hover {
+    transform: scale(1.02);
+  }
+  
+  .expenseDetails {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 15px;
+  }
+  
+  .description {
+    font-weight: bold;
+    color: #343a40;
+  }
+  
+  .amount {
+    font-weight: bold;
+    color: #28a745;
+  }
+  
+  .category {
+    color: #6c757d;
+    font-style: italic;
+  }
+  
+  .buttons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .editButton,
+  .deleteButton {
+    padding: 8px 12px;
+    font-size: 14px;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  .editButton {
+    background-color: #007bff;
+  }
+  
+  .editButton:hover {
+    background-color: #0056b3;
+  }
+  
+  .deleteButton {
+    background-color: #dc3545;
+  }
+  
+  .deleteButton:hover {
+    background-color: #b02a37;
+  }
+  
